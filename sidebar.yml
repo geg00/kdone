@@ -1,0 +1,8 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_paragraph.ipynb
+      - 01_section.ipynb
+      - 02_page.ipynb
+      - 03_document.ipynb

@@ -1,0 +1,40 @@
+ipynb-filters: [nbdev_filter]
+
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "kdone"
+  site-url: "https://geg00.github.io/kdone/"
+  description: "KDOne"
+  execute: 
+    enabled: false
+  twitter-card: true
+  open-graph: true
+  reader-mode: true
+  repo-branch: main
+  repo-url: "https://github.com/geg00/kdone/"
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: "https://github.com/geg00/kdone/"
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
