@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "page.html",
+    "href": "page.html",
+    "title": "Document detail",
+    "section": "",
+    "text": "foo\n\n foo ()"
+  },
+  {
+    "objectID": "section.html",
+    "href": "section.html",
+    "title": "A Section includes one or more paragraphs detail",
+    "section": "",
+    "text": "Section\n\n Section (iterable=())\n\nBuilt-in mutable sequence.\n\nsec = Section([Paragraph(\"Hello World\")])\n\n\nprint(sec)\n\n[Hello World]\n\n\n\nsec\n\n[Hello World]\n\n\n\nsec.append(Paragraph('New Item'))\n\n\nlen(sec)\n\n2\n\n\n\nsec.append(Paragraph('Something New'))\n\n\nsec\n\n[Hello World, New Item, Something New]"
+  },
+  {
+    "objectID": "paragraph.html",
+    "href": "paragraph.html",
+    "title": "A Paragraph is the lowest portion of a document.",
+    "section": "",
+    "text": "Paragraph\n\n Paragraph (paragraph:str)\n\nA Paragraph that you can tokenize\n\n\n\n\nType\nDetails\n\n\n\n\nparagraph\nstr\nparagraph string to be stored\n\n\n\n\np = Paragraph(\"Hello World\")\n\n\np\n\nHello World\n\n\n\ntest_eq(p, \"Hello World\")\n\n\n\nParagraph.tokenizer\n\n Paragraph.tokenizer ()\n\n\np.tokenizer()\n\n['Hello', 'World']\n\n\n\nassert(p.tokenizer()==['Hello', 'World'])"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project name here",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "Project name here",
+    "section": "Install",
+    "text": "Install\npip install your_project_name"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "Project name here",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\np = Paragraph('Hello World')\n\n\np\n\nHello World\n\n\n\np.tokenizer()\n\n['Hello', 'World']\n\n\n\nsec = Section([p])\n\n\nsec\n\n[Hello World]\n\n\n\nsec.append(Paragraph('Right now'))\n\n\nsec\n\n[Hello World, Right now]\n\n\n\none = list()\n\n\none\n\n[]\n\n\n\none.append(\"Uno\")\n\n\none.append(\"Dos\")\n\n\none\n\n['Uno', 'Dos']"
+  },
+  {
+    "objectID": "document.html",
+    "href": "document.html",
+    "title": "Document detail",
+    "section": "",
+    "text": "Document\n\n Document ()\n\nA Document of Pages\n\nd = Document()\n\n\nd\n\n<__main__.Document>"
+  }
+]
